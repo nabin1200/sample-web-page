@@ -1,0 +1,38 @@
+.header{
+    background-color: aqua;
+    font-size: 2rem;
+    text-align: center;
+}
+.container{
+    display: flex;
+    height: 250;
+    margin: 10px;
+
+}
+.left-container-one{
+    color: rgb(5, 18, 249);
+}
+.left-container-two{
+    color: rgb(249, 21, 5);
+}
+.left-container-three{
+    color: rgb(5, 18, 249);
+    
+}
+img{
+height: 250px;
+width: 250px;
+border: solid 2px;
+
+}
+.left-contain
+{
+    background-color: aquamarine;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+    
+}
