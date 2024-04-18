@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,
+        select {
+            background-color: antiquewhite;
+            border: 0px;
+        }
+
+        div {
+            background-color: black;
+        }
+
+        h1 {
+            margin-top: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
+            color: white;
+            text-align: center;
+        }
+
+        body {
+            margin-top: 0%;
+            padding-top: 0%;
+        }
+
+        input {
+            padding-left: 20px;
+        }
+
+        #leb {
+            margin-left: 100px;
+            opacity: 50%;
+        }
+
+        #lebe {
+            margin-left: 150px;
+            opacity: 50%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Event Registration Form</h1>
+
+    </div>
+    <form action="">
+        <lebel> Name: </lebel>
+        <input type="text">
+        <input type="text"><br>
+        <label for="name" id="leb">First name</label>
+        <label for="name" id="lebe">Last name</label><br>
+
+        <lebel>company </lebel>
+        <input type="text"><br><br>
+
+        <lebel>email</lebel>
+        <input type="email"><br><br>
+
+        <lebel>phone</lebel>
+        <input type="number">
+        <input type="number"><br>
+        <label for="phone" id="leb">Area code</label>
+        <label for="phone" id="lebe">phone number</label><br><br>
+
+        <lebel>subject</lebel>
+        <select>
+            <option value="subject 1">subject 1</option>
+            <option value="subject 2">subject 2</option>
+            <option value="subject 3">subject 3</option>
+        </select><br><br>
+
+
+
+        <lebel>Are you an existing customer?</lebel><br>
+        <input type="radio" name="gender" value="yes">yes
+        <input type="radio" name="gender" value="no">no<br><br>
+
+        <button type="submit" style="background-color: brown;">Register</button>
+
+
+
+    </form>
+</body>
+
+</html>
