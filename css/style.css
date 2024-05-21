@@ -1,0 +1,79 @@
+#h1,p{
+    text-align: center;
+    color: rgb(38, 47, 47);
+}
+header{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url("shiva.png");
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+li{
+    margin-right: 50px;
+    font-size: 20px;
+    
+}
+li:hover{
+    color: red;
+    background-color: aqua;
+    font-size: 50px;
+    padding: 0px;
+    
+    
+}
+#div1{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 8px;
+    overflow: hidden;
+    
+}
+#div2{
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    
+}
+.main{
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+}
+#hw{
+    color: rgb(255, 0, 0);
+}
+#logo{
+    height: 70px;
+}
+#signin{
+    margin-top: 90px;
+    justify-content: end;
+}
+.container{
+    display: flex;
+}
+footer{
+    margin-top: 600px;
+    background-color: rgb(220, 207, 207);
+}
+#form{
+    height: 100px;
+    width: 200px;
+    background-color: aliceblue;
+    margin-left: 100px;
+}
+.login{
+    margin-left: 100px;
+}
+

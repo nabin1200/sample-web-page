@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin-left: 100px;
+}
+img{
+    height: 200px;
+}
+#main{
+    display: flex;
+}
+#div1,#div2{
+    margin-left: auto;
+}
+body{
+    padding: 0px;
+    background-color: aliceblue;
+    
+   
+}
+#border{
+    border: 80px solid;
+   
+}
+#arrow{
+    height: 90px;
+}
+
+

@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#rapper{
+    display: flex;
+    gap: 27%;
+}
+#nav-bar{
+    display: flex;
+    gap: 30%;
+}
+#logo img{
+    width: 100px;
+}
+#nav-buttons button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+#herosection{
+    display: flex;
+}
+#hero-left{
+    background-color: aqua;
+    width: 50%;
+}
+#hero-right{
+    background-color: black;
+    width: 50%;
+
+}

@@ -1,0 +1,13 @@
+#parent{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 217, 0);
+
+}
+p{
+    color: aqua;
+}
+#child{
+    background-color: black;
+
+}
