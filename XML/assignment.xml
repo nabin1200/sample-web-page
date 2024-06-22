@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customers>
+    <Customer>
+        <CustomerID>1</CustomerID>
+        <Name>
+            <FirstName>Nishan</FirstName>
+            <LastName>Pradhan</LastName>
+        </Name>
+        <Address>
+            <City>Laxmimargha</City>
+            <State>Province 1.</State>
+            <ZipCode>62701</ZipCode>
+        </Address>
+        <PhoneNumber>9864354641</PhoneNumber>
+        <Email>nishanpradhan@gmail.com</Email>
+    </Customer>
+    <Customer>
+        <CustomerID>2</CustomerID>
+        <Name>
+            <FirstName>Ayush</FirstName>
+            <LastName>Shrestha</LastName>
+        </Name>
+        <Address>
+            <City>damak</City>
+            <State>Province 1.</State>
+            <ZipCode>56600</ZipCode>
+        </Address>
+        <PhoneNumber>9865564542</PhoneNumber>
+        <Email>ayush@gamil.com</Email>
+    </Customer>
+    <Customer>
+        <CustomerID>3</CustomerID>
+        <Name>
+            <FirstName>Sourab</FirstName>
+            <LastName>Koirala</LastName>
+        </Name>
+        <Address>
+            <City>belbari</City>
+            <State>Province 1.</State>
+            <ZipCode>56600</ZipCode>
+        </Address>
+        <PhoneNumber>9854354686</PhoneNumber>
+        <Email>sourab@example.com</Email>
+    </Customer>
+</Customers>

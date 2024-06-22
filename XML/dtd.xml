@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+  <!ELEMENT students (student+)>
+  <!ELEMENT student (name, address+, phone, website)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+  <!ELEMENT website (#PCDATA)>
+  <!ATTLIST address type (permanent|temporary) #REQUIRED>
+  <!ATTLIST phone length CDATA #FIXED "10">
+]>
+<students>
+  <student>
+    <name>Nabin Basnet</name>
+    <address type="permanent">Belbari</address>
+    <address type="temporary">Dulari</address>
+    <phone length="10">981536723</phone>
+    <website>http://facebook.com</website>
+  </student>
+  <student>
+    <name>pratik Rana</name>
+    <address type="permanent">Pathri</address>
+    <address type="temporary">Itahari</address>
+    <phone length="10">9876543210</phone>
+    <website>http://instagram.com</website>
+  </student>
+</students>
+
+

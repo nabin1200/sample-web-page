@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<table>
+
+<tr>
+<td>apple</td>
+<td>mango</td>
+<td>orange</td>
+</tr>
+
+<tr>
+<td>red</td>
+<td>yellow</td>
+<td>blue</td>
+</tr>
+
+</table>
+</root>

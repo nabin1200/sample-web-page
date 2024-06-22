@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library [
+  <!ELEMENT library (book+, employee*)>
+  
+  <!ELEMENT book (title, bookid, publishYear, author)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT bookid (#PCDATA)>
+  <!ELEMENT publishYear (#PCDATA)>
+  <!ELEMENT author (#PCDATA)>
+  <!ATTLIST book
+    bookid CDATA #REQUIRED>
+  
+  <!ELEMENT employee (employeeName, position, address, phoneno)>
+  <!ELEMENT employeeName (#PCDATA)>
+  <!ELEMENT position (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT phoneno (#PCDATA)>
+  <!ATTLIST phoneno length CDATA #FIXED "10">
+]>

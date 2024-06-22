@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TVSCHEDULE [
+
+<!ELEMENT TVSCHEDULE (CHANNEL+)>
+<!ELEMENT CHANNEL (banner, day+)>
+<!ELEMENT banner (#PCDATA)>
+<!ELEMENT day (date,(holiday,programslot)+)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT holiday (#PCDATA)>
+<!ELEMENT programslot (time, title, description?)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+<!ATTLIST TVSCHEDULE name CDATA #REQUIRED>
+<!ATTLIST CHANNEL chan CDATA #REQUIRED>
+<!ATTLIST programslot vtr CDATA #IMPLIED>
+<!ATTLIST title rating CDATA  #IMPLIED language CDATA #IMPLIED>
+]>
+
+<TVSCHEDULE name="TVS">
+    <CHANNEL chan="001">
+        <banner>Banner one</banner>
+        <day>
+            <date >2022-01-01</date>
+            <holiday>Saturday</holiday>
+            <programslot vtr="">
+                <time>08:00</time>
+                <title language="English" rating="10">Program 1</title>
+                <description>this is description</description>
+            </programslot>
+        </day>
+    </CHANNEL>
+</TVSCHEDULE>

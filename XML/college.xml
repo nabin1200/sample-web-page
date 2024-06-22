@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college>
+<student>
+<firstname>nabin</firstname>
+<lastname>basnet</lastname>
+<contact>35468741571</contact>
+<email>nabinbasnet1200@gmail.com</email>
+<address>
+<city>itahari</city>
+<state>koshi</state>
+<pin>01</pin>
+</student>
+</college>
