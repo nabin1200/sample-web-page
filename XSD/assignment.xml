@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Definition of the root element -->
+    <xs:element name="college">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Definition of student elements -->
+                <xs:element name="student" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="address" type="xs:string"/>
+                            <xs:element name="phone" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Definition of subject elements -->
+                <xs:element name="subject">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="BCA" type="xs:string"/>
+                            <xs:element name="BIT" type="xs:string"/>
+                            <xs:element name="MIT" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
